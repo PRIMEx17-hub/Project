@@ -1,0 +1,95 @@
+.gallery
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background-color: black;
+        }
+.gallery-item
+        {
+            overflow: hidden;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+.gallery-item img
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 2px solid green;
+            border-radius: 10px;
+        }
+.gallery-item:hover 
+        {
+            transform: scale(1.05);
+        }
+h1 
+        {
+            text-align: center;
+            padding: 30px 0;
+            background-color: black;
+            color: green;
+            font-family: 'poppins',sans-serif;
+        }
+footer 
+        {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+            color: antiquewhite;
+        }
+.Backtotop 
+        {
+            display: inline-block;
+            margin-top: 10px;
+            color: antiquewhite;
+            text-decoration: none;
+            background-color: green;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: o.2 ease;
+    }
+.Backtotop:active 
+{
+   transform: scale(1.50) translateY(-5px);
+}
+
+
+header
+{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 60px;
+}
+.logo img
+ {
+    margin-right: 10px;
+ }
+ nav ul 
+ {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+ }
+ nav ul li a
+  {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: green;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+      display: inline-block;
+    transition: o.2 ease;
+  }
+  nav ul li a:active 
+{
+   transform: scale(1.50) translateY(-5px);
+}
+body
+{ 
+    background-color: black;
+}

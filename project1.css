@@ -34,7 +34,13 @@ header
     padding: 8px 15px;
     border-radius: 5px;
     background-color: green;
+    display: inline-block;
+    transition: o.2 ease;
   }
+  nav ul li a:active 
+{
+   transform: scale(1.50) translateY(-5px);
+}
    .first
    {
     display: flex;
@@ -44,11 +50,13 @@ header
    }
    .text h1
    {
+      color: green;
      font-size: 50px;
      margin-bottom: 20px;
    }
    .text p
     {
+      color: green;
         font-size: 18px;
         margin-bottom: 20px;
     }
@@ -59,62 +67,79 @@ header
      }
      .main h2
       {
+         color: green;
         text-align: center;
         font-size: 40px;
         margin-bottom: 20px;
       }
        .main p
       {
+         color: green;
         text-align: left;
         font-size: 20px;
         margin-bottom: 20px;
         padding: 20px;
       }
-      .second 
+       .footer
      {
-        text-align: center;
-        padding: 20px;
+      padding: 40px 0 20px;
+      margin-top: 60px;
      }
-     .second h3
+     .footer2 
      {
-        font-size: 30px;
-        margin-bottom: 40px;
+      width: 85%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
      }
-     .cards 
+     .footer3 
      {
-        display: flex;
-        justify-content: center;
-        gap: 100px;
+      width: 30%;
+      min-width: 200px;
+      margin-bottom: 20px;
      }
-     .card 
+     .foot 
      {
-        text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      color: green;
+      letter-spacing: 2px;
      }
-     fieldset 
+     .footer4 h3 
      {
-        width: 250px;
-        border: 3px solid green;
-        color: green;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: black;
      }
-     .box 
+     .footer4 p 
      {
-        margin-left: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: antiquewhite;
      }
-     .red 
+     .top 
      {
-    text-decoration: none;
-    color: antiquewhite;
-    padding: 8px 15px;
-    border-radius: 5px;
-    background-color: green;
-    margin-bottom: 20px;
+      text-align: center;
+      margin-top: 20px;
+     }
+     .top a 
+     {
+      color: antiquewhite;
+      text-decoration: none;
+      background-color: green;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s;
+      display: inline-block;
+    transition: o.2 ease;
     }
-    .blue
-     {
-    text-decoration: none;
-    color: antiquewhite;
-    padding: 8px 15px;
-    border-radius: 5px;
-    background-color: green;
-    margin-left: 8px;
-     }
+      .top:active 
+{
+   transform: scale(1.50) translateY(-5px);
+}
+
+
+
+    
